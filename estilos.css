@@ -30,7 +30,7 @@ header p {
   font-size: .9rem;
 }
 
-/* Por si quieres todos los títulos en violeta */
+
 h1, h2, h3, legend {
   color: var(--violeta);
 }
@@ -91,7 +91,7 @@ button[type="submit"] {
   padding: .6rem 1rem;
   border: none;
   border-radius: 6px;
-  background: var(--violeta);   /* a juego con los títulos */
+  background: var(--violeta);   
   color: #fff;
   font: inherit;
   cursor: pointer;
@@ -133,7 +133,7 @@ button[type="submit"]:hover { background: #552f86; }
 .tarjeta h2 {
   margin: 0 0 .5rem;
   font-size: 1.05rem;
-  color: var(--verde);          /* aquí lo dejo verde: es un mensaje de éxito */
+  color: var(--verde);         
 }
 
 .tarjeta dl { display: grid; grid-template-columns: auto 1fr; gap: .2rem .8rem; margin: 0; }
